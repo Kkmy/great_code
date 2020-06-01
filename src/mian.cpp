@@ -6,7 +6,7 @@ int number = 0;
 #pragma warning(disable : 4996)
 
 #ifdef this_is_a_great_codo
-	問題：1から順番に数字を発言するのだけれども、その数字が3で割り切れれはFizzと発言して、5ならBuzz、15でならFizzBuzzと発言する
+	問題：1から順番に数字を発言し、その数字が3で割り切れればFizz、5ならBuzz、15でならFizzBuzzと発言する
 #endif
 
 int main() {
