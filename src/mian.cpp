@@ -10,7 +10,7 @@ int number = 0;
 #endif
 
 int main() {
-	while(number++ < 1000) sprintf(mojiretsu, "%d", mojisuu),
+	while(number++ < 1000) sprintf(mojiretsu, "%d", number),
 	printf("%s, ", number % 3 ? number % 5 ? number % 15 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz");
 	system("PAUSE");
 }
